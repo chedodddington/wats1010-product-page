@@ -1,8 +1,30 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+header {
+	margin-top: 20px;
+	padding: 0;
+}
+
+header li {
+	font-size: 1.5em;
+}
+
+.banner {
+	position: relative;
+	margin-bottom: 3em;
+}
+
+.banner img {
+	width: 100%;
+	border: solid black;
+}
+
+.banner p {
+	position: absolute;
+	top: 420px;
+	left: 600px;
+	font-weight: bold;
+	font-size: 2em;
+	color: white;
 }
