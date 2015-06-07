@@ -1,30 +1,107 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
-header {
-	margin-top: 20px;
-	padding: 0;
+html {
+	margin-top: 15px;
 }
 
 header li {
 	font-size: 1.5em;
 }
 
+.nav {
+	margin-top: 25px;
+}
+
 .banner {
-	position: relative;
-	margin-bottom: 3em;
+ 	padding-top: 60px;
+	padding-bottom: 40px;
+	background-image: url("design/startup.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-top: black solid;
+	border-bottom: black solid;
 }
 
-.banner img {
-	width: 100%;
-	border: solid black;
-}
-
-.banner p {
-	position: absolute;
-	top: 420px;
-	left: 600px;
-	font-weight: bold;
-	font-size: 2em;
+.banner h3 {
 	color: white;
+	font-weight: bold;
+	padding-top: 380px;
+	margin-right: 10px;
+	font-size: 1.5em;
+}
+
+.description ul {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.description {
+	border-top: black solid 1px;
+	border-bottom: black solid 1px;
+	margin-bottom: 50px; 
+	background-color: maroon;
+	color: white;
+	margin-top: 50px;
+}
+
+.video {
+	text-align: center;
+	list-style-type: none;
+}
+
+.video ul{
+	padding-top: 130px;
+	padding-bottom: 130px;
+	font-size: 20px;
+}
+
+.testimonials {
+	margin-top: 40px;
+	text-align: left;
+	background-color: lightgray;
+	border-top: black solid 1px;
+	border-bottom: black solid 1px;
+	padding-top: 20px;
+
+}
+
+.testimonials h2{
+	margin-top: 155px;
+}
+
+.testimonials img {
+	margin-bottom: 15px;
+	border: black solid 2px;
+}
+
+.testimonials p {
+	padding-top: 25px;
+	padding-bottom: 15px;
+	font-size: 15px;
+}
+
+.buy-now{
+	margin-top: 50px;
+	padding-top: 160px;
+	padding-bottom: 200px;
+	text-align: center;
+	color: white;
+	border-top: black solid;
+	border-bottom: black solid;
+	background-image: url("design/guy.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+.links li{
+	display: inline;
+}
+
+.links ul{
+	margin-top: 50px;
+	margin-bottom: 0;
+	padding:0;
 }
